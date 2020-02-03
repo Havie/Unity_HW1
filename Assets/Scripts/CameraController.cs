@@ -39,7 +39,6 @@ public class CameraController : MonoBehaviour
        if(Input.GetMouseButton(1))
         {
             LookAtTargetRMB();
-            print("Down");
         }
        else
            lookAtTarget();
