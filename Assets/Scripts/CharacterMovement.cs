@@ -5,10 +5,9 @@ using UnityEngine;
 public class CharacterMovement : MonoBehaviour
 {
     public GameObject Character;
-    public float movementSpeed = 5f;
     public float inputDelay = 0.1f;
     public float ForwardVelo = 12;
-    public float RotateVelo = 100f;
+    public float RotateVelo = 70f;
 
     public Animator charAnimator;
 
