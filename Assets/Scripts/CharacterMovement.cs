@@ -67,13 +67,16 @@ public class CharacterMovement : MonoBehaviour
         if(Mathf.Abs(forwardInput) > inputDelay)
         {
             //move
-            rBody.velocity = transform.forward * forwardInput * ForwardVelo;
+            Vector3 change= (transform.forward * forwardInput * ForwardVelo);
+            change.y = rBody.velocity.y;
+            rBody.velocity = change;
+
             charAnimator.SetBool("isMoving", true);
         }
         else
         {
             //zero velo
-            rBody.velocity = Vector3.zero;
+           // rBody.velocity = Vector3.zero; // dont want to do or character falls weird
             charAnimator.SetBool("isMoving", false);
         }
     }
