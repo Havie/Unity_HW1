@@ -12,7 +12,7 @@ public class TrigOrbit : MonoBehaviour
     float offsetF;
     bool OrbitActive;
 
-    float OrbitSpeed=5f;
+    float OrbitSpeed=50f;
 
     // Start is called before the first frame update
     void Start()
@@ -33,16 +33,19 @@ public class TrigOrbit : MonoBehaviour
             //Rotate based on mouse X/Y
             if (Input.GetAxis("Mouse X") != 0 || Input.GetAxis("Mouse Y") != 0)
             {
-                _varX += Input.GetAxis("Mouse X")* OrbitSpeed;
+                _varX = Input.GetAxis("Mouse X")* OrbitSpeed;
                 _varY -= Input.GetAxis("Mouse Y")* OrbitSpeed;
 
 
-                _varY= Mathf.Clamp(_varY, -10f, 60f);
+               // _varY= Mathf.Clamp(_varY, -10f, 60f);
 
                 Debug.Log("(X): " + (_varX));
 
 
-             target.transform.eulerAngles = new Vector3(_varY,_varX, 0);
+            // target.transform.eulerAngles = new Vector3(_varY,_varX, 0);
+
+                transform.RotateAround(target.position, Vector3.up, _varX * Time.deltaTime);
+                transform.RotateAround(target.position, Vector3.right, _varY * Time.deltaTime);
 
             }
         }
