@@ -7,24 +7,18 @@ public class CameraController : MonoBehaviour
 {
 
     public Transform target;
-    public float lookSmooth = 0.09f;
-    public Vector3 offsetFromTarget = new Vector3(0, 2, -4);
-    public float xTilt = 15f;
+    public Vector3 offset;
+    private CharacterMovement charController;
 
-    Vector3 destination = Vector3.zero;
-    CharacterMovement charController;
-    float rotateVelo = 0;
-
-
-    public float speedH = 2.0f;
-    public float speedV = 2.0f;
-
+    //unused
     private float yaw = 0.0f;
     private float pitch = 0.0f;
-
-    private Vector3 offset;
+    private float rotateVelo = 0;
 
     public float RotationSpeed = 5.0f;
+    public float lookSmooth = 0.09f;
+    public float xTilt = 15f;
+
 
 
     // Start is called before the first frame update
@@ -39,16 +33,6 @@ public class CameraController : MonoBehaviour
     private void LateUpdate()
     {
         this.transform.position = target.position + offset;
-
-      if(Input.GetMouseButton(1))
-        {
-            LookAtTargetRMB();
-          
-        }
-         
-        
-
-
 
     }
 
@@ -68,14 +52,9 @@ public class CameraController : MonoBehaviour
             Debug.LogError("Camera has no target");
     }
 
-    void moveToTarget()
-    {
-        destination = charController.getTargetRotation() * offsetFromTarget;
-        destination += target.position;
-        transform.position = destination;
-    }
 
-    void lookAtTarget()
+    //unused
+    void lookAtTargetLerp()
     {
         //transform.LookAt(target);
 
@@ -84,6 +63,8 @@ public class CameraController : MonoBehaviour
         transform.rotation = Quaternion.Euler(transform.eulerAngles.x, eulerYAngle, 0);
     }
 
+
+    //unused
     void LookAtTargetRMB()
     {
         //yaw += speedH * Input.GetAxis("Mouse X");
