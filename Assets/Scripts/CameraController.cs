@@ -22,26 +22,31 @@ public class CameraController : MonoBehaviour
     private float yaw = 0.0f;
     private float pitch = 0.0f;
 
+    private Vector3 offset;
 
+    public float RotationSpeed = 5.0f;
 
 
     // Start is called before the first frame update
     void Start()
     {
         setCameraTarget(target);
+        offset = this.transform.position - target.position;
+
     }
 
 
     private void LateUpdate()
     {
-        moveToTarget();
+        this.transform.position = target.position + offset;
 
-       if(Input.GetMouseButton(1))
+      if(Input.GetMouseButton(1))
         {
             LookAtTargetRMB();
+          
         }
-       else
-           lookAtTarget();
+         
+        
 
 
 
@@ -81,10 +86,16 @@ public class CameraController : MonoBehaviour
 
     void LookAtTargetRMB()
     {
-        yaw += speedH * Input.GetAxis("Mouse X");
-        pitch -= speedV * Input.GetAxis("Mouse Y");
+        //yaw += speedH * Input.GetAxis("Mouse X");
+        //pitch -= speedV * Input.GetAxis("Mouse Y");
+        //transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
 
-        transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
+            Quaternion camTurnAngle =
+             Quaternion.AngleAxis(Input.GetAxis("Mouse X") * RotationSpeed, Vector3.up);
+
+            offset = camTurnAngle * offset;
+            transform.LookAt(target);
+        
     }
 
 }

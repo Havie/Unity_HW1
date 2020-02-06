@@ -58,16 +58,40 @@ public class CharacterMovement : MonoBehaviour
 
     void GetInput()
     {
-        forwardInput = Input.GetAxis("Vertical");
-        turnInput = Input.GetAxis("Horizontal");
+        turnInput = Input.GetAxis("Vertical");
+        forwardInput = Input.GetAxis("Horizontal");
     }
 
     void Run()
     {
-        if(Mathf.Abs(forwardInput) > inputDelay)
+
+        
+         Vector3 move = new Vector3(turnInput, 0, forwardInput).normalized;
+         move = move * ForwardVelo;
+         rBody.velocity = move;
+
+        if(move != Vector3.zero)
+        {
+            charAnimator.SetBool("isMoving", true);
+            transform.forward = move;
+        }
+        else
+            charAnimator.SetBool("isMoving", false);
+
+        /*
+        if (Mathf.Abs(forwardInput) > inputDelay)
         {
             //move
             Vector3 change= (transform.forward * forwardInput * ForwardVelo);
+            change.y = rBody.velocity.y;
+            rBody.velocity = change;
+
+            charAnimator.SetBool("isMoving", true);
+        }
+        else if (Mathf.Abs(turnInput) > inputDelay)
+        {
+            //move
+            Vector3 change = (transform.right * turnInput * ForwardVelo);
             change.y = rBody.velocity.y;
             rBody.velocity = change;
 
@@ -79,14 +103,18 @@ public class CharacterMovement : MonoBehaviour
            // rBody.velocity = Vector3.zero; // dont want to do or character falls weird
             charAnimator.SetBool("isMoving", false);
         }
+        */
+
+
     }
 
     void Turn()
     {
-        if (Mathf.Abs(turnInput) > inputDelay)
+       /* if (Mathf.Abs(turnInput) > inputDelay)
         {
-            targetRotation *= Quaternion.AngleAxis(RotateVelo * turnInput * Time.deltaTime, Vector3.up);
+          targetRotation *= Quaternion.AngleAxis(RotateVelo * turnInput * Time.deltaTime, Vector3.up);
         }
-        transform.rotation = targetRotation;
+       transform.rotation = targetRotation;
+       */
     }
 }
