@@ -66,7 +66,7 @@ public class CharacterMovement : MonoBehaviour
     {
 
         
-         Vector3 move = new Vector3(turnInput, 0, forwardInput).normalized;
+         Vector3 move = new Vector3(forwardInput, 0, turnInput).normalized;
          move = move * ForwardVelo;
          rBody.velocity = move;
 
