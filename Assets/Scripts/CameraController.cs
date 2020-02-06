@@ -25,7 +25,7 @@ public class CameraController : MonoBehaviour
     void Start()
     {
         setCameraTarget(target);
-        offset = this.transform.position - target.position;
+        // offset = this.transform.position - target.position;
 
     }
 
@@ -33,7 +33,6 @@ public class CameraController : MonoBehaviour
     private void LateUpdate()
     {
         this.transform.position = target.position + offset;
-
     }
 
     public void setCameraTarget(Transform t)
