@@ -41,12 +41,11 @@ public class TrigOrbit : MonoBehaviour
 
                 //Might need to normalize base of aspect ratio
 
+
+
                 //_varY= Mathf.Clamp(_varY, -10f, 60f);
 
-                Debug.Log("(X): " + (_varX));
-
-
-            //target.transform.eulerAngles = new Vector3(_varY,_varX, 0);
+               //target.transform.eulerAngles = new Vector3(_varY,_varX, 0);
 
                
 
@@ -78,8 +77,17 @@ public class TrigOrbit : MonoBehaviour
             float oldDist = viewVector.magnitude;
             viewVector.Normalize();
 
-            this.transform.localPosition += viewVector * 0.5f * Mathf.Sign(ScrollAmnt);
-            // this.transform.LookAt(target);
+           
+
+            //Need a check on the signs to be able to reverse
+            if (oldDist > 3.5 && ScrollAmnt>0)
+            {
+                this.transform.localPosition += viewVector * 0.5f * Mathf.Sign(ScrollAmnt);
+            }
+            else if (oldDist < 20 && ScrollAmnt < 0)
+            {
+                this.transform.localPosition += viewVector * 0.5f * Mathf.Sign(ScrollAmnt);
+            }
         }
 
 
