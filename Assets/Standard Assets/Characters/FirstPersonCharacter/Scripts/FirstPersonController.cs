@@ -81,6 +81,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+
+            if(Input.GetAxis("Horizontal")!=0 || Input.GetAxis("Vertical") != 0 || Input.GetAxis("ML Enable") != 0 || Input.GetAxis("Turn") != 0 || Input.GetMouseButton(1))
+            {
+                m_MouseLook.SetCursorLock(true);
+            }
+            else
+                m_MouseLook.SetCursorLock(false);
         }
 
 

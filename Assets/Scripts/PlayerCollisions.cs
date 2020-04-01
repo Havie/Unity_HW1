@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class PlayerCollisions : MonoBehaviour
 {
+
+    public UITextHints hints;
+    public BatteryCollect bc;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        bc = GameObject.FindGameObjectWithTag("BatteryUI").GetComponent<BatteryCollect>();
     }
 
     // Update is called once per frame
@@ -26,11 +30,15 @@ public class PlayerCollisions : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag.Equals("Platform"))
+        Debug.Log("Entered with " + other.gameObject);
+
+        if (other.tag.Equals("Platform") && bc.juice >= 4)
         {
             transform.parent = other.transform;
             transform.parent.GetComponent<PlatformMover>().enabled = true;
         }
+        else
+            hints.DisplayHint("Platform needs 4 juice");
     }
 
     private void OnTriggerExit(Collider other)
