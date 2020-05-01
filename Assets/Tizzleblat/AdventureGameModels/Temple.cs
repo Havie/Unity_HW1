@@ -14,4 +14,9 @@ public class Temple : MonoBehaviour
     {
         animController.SetTrigger("doOpen");
     }
+
+    public void ResetStairs()
+    {
+        animController.SetTrigger("doReset");
+    }
 }

@@ -12,9 +12,18 @@ public class PlatformMover : MonoBehaviour
     public float weight;
     private float tripTime=3;
 
+    public Transform startR;
+    public Transform endR;
+
     private bool delay;
+    public bool ini;
 
-
+    public void Awake()
+    {
+        startR = start;
+        endR = end;
+        ini = true;
+    }
 
     // Update is called once per frame
     void Update()
@@ -49,5 +58,16 @@ public class PlatformMover : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
         delay = false;
+    }
+
+    public void resetPlat()
+    {
+        if (ini)
+        {
+            start = startR;
+            end = endR;
+            elapsedTime = 0;
+            this.transform.position = start.position;
+        }
     }
 }

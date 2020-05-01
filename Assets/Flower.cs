@@ -24,4 +24,10 @@ public class Flower : MonoBehaviour
         yield return new WaitForSeconds(2.5f);
         jewl.SetActive(false);
     }
+
+    public void ResetFlower()
+    {
+        anim.SetTrigger("doReset");
+        vial.SetActive(false);
+    }
 }

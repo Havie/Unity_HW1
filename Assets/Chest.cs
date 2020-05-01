@@ -23,4 +23,10 @@ public class Chest : MonoBehaviour
         key.SetActive(false);
         vial.SetActive(false);
     }
+
+    public void ResetLid()
+    {
+        vial.SetActive(true);
+        lid.SetTrigger("doReset");
+    }
 }

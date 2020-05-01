@@ -152,5 +152,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
             else
                 hints.DisplayHint("Need Potion", true);
         }
+        public void Reset()
+        {
+          hasKey = false;
+          hasPotion = false ;
+          has4Battery = false;
+          hasJewl = false;
+        }
     }
 }

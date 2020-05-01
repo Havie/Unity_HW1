@@ -36,7 +36,7 @@ public class Vial : MonoBehaviour
         yield return new WaitForSeconds(1);
         water.Play();
         yield return new WaitForSeconds(5);
-        Destroy(this.gameObject);
+        this.gameObject.SetActive(false);
     }
 
 }

@@ -22,17 +22,20 @@ public class Interacter : MonoBehaviour
     }
 
 
-    private void OnMouseEnter()
+    public void OnMouseEnter()
     {
         if(withinRange())
             Cursor.SetCursor(cursor2, Vector2.zero, CursorMode.Auto);
     }
 
-    private void OnMouseExit()
+    public void OnMouseExit()
     {
         Cursor.SetCursor(cursor1, Vector2.zero, CursorMode.Auto);
     }
-
+    public void resetCursor()
+    {
+        Cursor.SetCursor(cursor1, Vector2.zero, CursorMode.Auto);
+    }
     private void OnMouseDown()
     {
         print("Mouse down " + this.gameObject.tag);

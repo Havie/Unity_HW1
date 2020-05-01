@@ -55,4 +55,9 @@ public class BatteryCollect : MonoBehaviour
     {
         return juice;
     }
+
+    public void resetJuice()
+    {
+        juice = 1;
+    }
 }

@@ -19,8 +19,10 @@ public class BatteryPickUp : MonoBehaviour
         if (inter.withinRange())
         {
             bc.increaseJuice(1);
-            Destroy(this.gameObject);
+            this.gameObject.SetActive(false);
             Audioplayer.Instance.PlayInventory();
+
+           this.gameObject.GetComponent<Interacter>().resetCursor();
         }
     }
 }
