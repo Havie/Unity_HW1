@@ -31,5 +31,6 @@ public class UITextHints : MonoBehaviour
         hinter.text = hint;
         hinter.enabled = true;
         timer = 0;
+        Audioplayer.Instance.PlayHint();
     }
 }

@@ -20,6 +20,7 @@ public class BatteryPickUp : MonoBehaviour
         {
             bc.increaseJuice(1);
             Destroy(this.gameObject);
+            Audioplayer.Instance.PlayInventory();
         }
     }
 }

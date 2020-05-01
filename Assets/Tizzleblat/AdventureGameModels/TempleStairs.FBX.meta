@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: 8f8ff63b3e1bd4344922714a52d75978
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Key Lockup Stair
+  - first:
+      1: 100002
+    second: StairJewel
+  - first:
+      1: 100004
+    second: StairLock
+  - first:
+      1: 100006
+    second: Stairs
+  - first:
+      1: 100008
+    second: //RootNode
+  - first:
+      4: 400000
+    second: Key Lockup Stair
+  - first:
+      4: 400002
+    second: StairJewel
+  - first:
+      4: 400004
+    second: StairLock
+  - first:
+      4: 400006
+    second: Stairs
+  - first:
+      4: 400008
+    second: //RootNode
+  - first:
+      23: 2300000
+    second: Key Lockup Stair
+  - first:
+      23: 2300002
+    second: StairJewel
+  - first:
+      23: 2300004
+    second: StairLock
+  - first:
+      23: 2300006
+    second: Stairs
+  - first:
+      23: 2300008
+    second: //RootNode
+  - first:
+      33: 3300000
+    second: Key Lockup Stair
+  - first:
+      33: 3300002
+    second: StairJewel
+  - first:
+      33: 3300004
+    second: StairLock
+  - first:
+      33: 3300006
+    second: Stairs
+  - first:
+      33: 3300008
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: Stair Pivot
+  - first:
+      43: 4300002
+    second: Stairs
+  - first:
+      43: 4300004
+    second: StairLock
+  - first:
+      43: 4300006
+    second: StairJewel
+  - first:
+      43: 4300008
+    second: Key Lockup Stair
+  - first:
+      74: 7400000
+    second: open
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 17 - Default
+    second: {fileID: 2100000, guid: a23c4cc5a1c3dc14f876f4090e929e9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 22 - Default
+    second: {fileID: 2100000, guid: 764a848cbf9a66648a77dbda6395801b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #227'
+    second: {fileID: 2100000, guid: f985217252d77dc41a6748ee64648d5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 91470cc6d1bd1974a85db7ba3a072dea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone Outer
+    second: {fileID: 2100000, guid: daa3588d5e6df124e8b34cf7bd4d3a6f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: open
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 50
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Stairs
+        weight: 1
+      - path: Stairs/StairLock
+        weight: 1
+      - path: Stairs/StairLock/Key Lockup Stair
+        weight: 1
+      - path: Stairs/StairLock/StairJewel
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 10
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

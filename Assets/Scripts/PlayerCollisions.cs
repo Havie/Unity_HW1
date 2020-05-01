@@ -9,6 +9,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public UITextHints hints;
         public BatteryCollect bc;
 
+
+        public bool hasKey;
+        public bool hasPotion;
+        public bool has4Battery;
+        public bool hasJewl;
+
+
+
         // Start is called before the first frame update
         void Start()
         {
@@ -26,34 +34,55 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 if (hit.collider.gameObject.tag.Equals("PickUp"))
                 {
-                   // Debug.Log("Found:" + hit.collider.gameObject);
+                    // Debug.Log("Found:" + hit.collider.gameObject);
                 }
             }
         }
 
         public void OnTriggerEnter(Collider other)
         {
-           // Debug.Log("Entered with " + other.gameObject);
+            // Debug.Log("Entered with " + other.gameObject);
 
-            if (other.tag.Equals("Platform") && bc.juice >= 4)
+            if (other.tag.Equals("Platform"))
             {
-                //transform.parent = other.transform;
-                // transform.parent.GetComponent<PlatformMover>().enabled = true;
-                PlatformMover pm = other.GetComponent<PlatformMover>();
-                if (pm == null)
-                    Debug.LogWarning("why is this null?");
-                other.GetComponent<PlatformMover>().enabled = true;
-                this.transform.SetParent(other.transform);
+                if (bc.juice >= 4)
+                {
+                    //transform.parent = other.transform;
+                    // transform.parent.GetComponent<PlatformMover>().enabled = true;
+                    PlatformMover pm = other.GetComponent<PlatformMover>();
+                    if (pm == null)
+                        Debug.LogWarning("why is this null?");
+                    other.GetComponent<PlatformMover>().enabled = true;
+                    this.transform.SetParent(other.transform);
 
-                Debug.LogWarning("Turn on:" +other.name);
+                    Debug.LogWarning("Turn on:" + other.name);
+                }
+                else
+                    hints.DisplayHint("Platform needs 4 juice");
             }
-            else
-                hints.DisplayHint("Platform needs 4 juice");
+            else if (other.tag.Equals("Rock"))
+            {
+               //obsolete
+            }
+            else if (other.tag.Equals("Chest"))
+            {
+                //obsolete
+            }
+            else if (other.tag.Equals("Temple"))
+            {
+                print("Found Temple");
+                if (hasJewl)
+                {
+                    //open stairs
+                }
+                else
+                    hints.DisplayHint("Need Jewl");
+            }
         }
 
         private void OnTriggerExit(Collider other)
         {
-           // Debug.Log("Exit with " + other.gameObject);
+            // Debug.Log("Exit with " + other.gameObject);
 
             if (other.tag.Equals("Platform"))
             {
@@ -64,6 +93,44 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
                 Debug.LogWarning("Turn off:" + other.name);
             }
+        }
+
+        public void Rock(GameObject g)
+        {
+            print("Found Rock");
+            g.SetActive(false);
+            
+        }
+        public void Key(GameObject g)
+        {
+            hasKey = true;
+            g.SetActive(false);
+            hints.DisplayHint("You got Key!");
+        }
+
+        public void Chest(GameObject g)
+        {
+            print("Found Chest");
+            if (hasKey)
+            {
+                //give potion
+                g.GetComponent<Chest>().Clicked();
+                hasPotion = true;
+                hints.DisplayHint("You got potion!");
+            }
+            else
+                hints.DisplayHint("Need Key");
+        }
+        public void Flower(GameObject g)
+        {
+            if(hasPotion)
+            {
+                hasJewl = true;
+                g.GetComponent<Flower>().Clicked();
+                hints.DisplayHint("You got Jewl!");
+            }
+            else
+                hints.DisplayHint("Need Potion");
         }
     }
 }
