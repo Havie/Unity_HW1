@@ -10,15 +10,8 @@ public class Temple : MonoBehaviour
     public GameObject Player;
 
 
-    // Start is called before the first frame update
-    void Start()
+   public void Clicked()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        animController.SetTrigger("doOpen");
     }
 }

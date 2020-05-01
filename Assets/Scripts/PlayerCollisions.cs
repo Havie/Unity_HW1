@@ -52,13 +52,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
                     PlatformMover pm = other.GetComponent<PlatformMover>();
                     if (pm == null)
                         Debug.LogWarning("why is this null?");
-                    other.GetComponent<PlatformMover>().enabled = true;
-                    this.transform.SetParent(other.transform);
+                    StartCoroutine(PlatformDelay(other.gameObject));
 
                     Debug.LogWarning("Turn on:" + other.name);
                 }
                 else
-                    hints.DisplayHint("Platform needs 4 juice");
+                    hints.DisplayHint("Platform needs 4 juice", true);
             }
             else if (other.tag.Equals("Rock"))
             {
@@ -74,9 +73,17 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 if (hasJewl)
                 {
                     //open stairs
+                    other.GetComponent<Temple>().Clicked();
+                    StartCoroutine(MazeDelay());
                 }
                 else
-                    hints.DisplayHint("Need Jewl");
+                    hints.DisplayHint("Need Jewl", true);
+            }
+            else if (other.tag.Equals("Maze"))
+            {
+                print("Found Exit");
+                Maze.Instance.ClearedMaze();
+                
             }
         }
 
@@ -95,6 +102,19 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
         }
 
+        IEnumerator PlatformDelay(GameObject other)
+        {
+            yield return new WaitForSeconds(1);
+            other.GetComponent<PlatformMover>().enabled = true;
+            this.transform.SetParent(other.transform);
+
+        }
+        IEnumerator MazeDelay()
+        {
+            yield return new WaitForSeconds(3.5f);
+            Maze.Instance.StartMaze();
+        }
+
         public void Rock(GameObject g)
         {
             print("Found Rock");
@@ -105,7 +125,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             hasKey = true;
             g.SetActive(false);
-            hints.DisplayHint("You got Key!");
+            hints.DisplayHint("You got Key!", false);
         }
 
         public void Chest(GameObject g)
@@ -116,10 +136,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 //give potion
                 g.GetComponent<Chest>().Clicked();
                 hasPotion = true;
-                hints.DisplayHint("You got potion!");
+                hints.DisplayHint("You got potion!", false);
             }
             else
-                hints.DisplayHint("Need Key");
+                hints.DisplayHint("Need Key", true);
         }
         public void Flower(GameObject g)
         {
@@ -127,10 +147,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 hasJewl = true;
                 g.GetComponent<Flower>().Clicked();
-                hints.DisplayHint("You got Jewl!");
+                hints.DisplayHint("You got Jewl!", false);
             }
             else
-                hints.DisplayHint("Need Potion");
+                hints.DisplayHint("Need Potion", true);
         }
     }
 }

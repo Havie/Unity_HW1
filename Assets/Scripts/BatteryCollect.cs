@@ -14,12 +14,13 @@ public class BatteryCollect : MonoBehaviour
     Image BatteryImg;
     Interacter interacter;
 
-   public int juice = 3;
+   public int juice = 1;
 
     // Start is called before the first frame update
     void Start()
     {
         BatteryImg = GetComponent<Image>();
+        juice = 1;
     }
 
     // Update is called once per frame

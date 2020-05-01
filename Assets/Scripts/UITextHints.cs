@@ -26,11 +26,14 @@ public class UITextHints : MonoBehaviour
         }
     }
 
-  public void  DisplayHint(string hint)
+  public void  DisplayHint(string hint, bool audio)
     {
         hinter.text = hint;
         hinter.enabled = true;
         timer = 0;
-        Audioplayer.Instance.PlayHint();
+        if(audio)
+            Audioplayer.Instance.PlayHint();
+        else
+            Audioplayer.Instance.PlayInventory();
     }
 }

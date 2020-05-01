@@ -15,6 +15,7 @@ TagManager:
   - Rock
   - Flower
   - Key
+  - Maze
   layers:
   - Default
   - TransparentFX

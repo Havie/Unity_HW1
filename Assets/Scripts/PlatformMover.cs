@@ -12,6 +12,8 @@ public class PlatformMover : MonoBehaviour
     public float weight;
     private float tripTime=3;
 
+    private bool delay;
+
 
 
     // Update is called once per frame
@@ -26,15 +28,26 @@ public class PlatformMover : MonoBehaviour
         if (transform.position == end.position)
             swap();
 
-        transform.position = Vector3.Lerp(start.position, end.position, speed * elapsedTime % tripTime);
-        elapsedTime += Time.deltaTime;
+        if (!delay)
+        {
+            transform.position = Vector3.Lerp(start.position, end.position, speed * elapsedTime % tripTime);
+            elapsedTime += Time.deltaTime;
+        }
     }
 
     public void swap()
     {
+        delay = true;
         Transform tmp = start;
         start = end;
         end = tmp;
         elapsedTime = 0;
+        StartCoroutine(Delay());
+    }
+
+    IEnumerator Delay()
+    {
+        yield return new WaitForSeconds(3);
+        delay = false;
     }
 }
