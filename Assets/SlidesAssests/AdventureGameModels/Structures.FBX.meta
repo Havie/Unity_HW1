@@ -1,0 +1,1506 @@
+fileFormatVersion: 2
+guid: 58e34f805233ef84caeab8aaf940bc6f
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bowl
+  - first:
+      1: 100002
+    second: Cavern
+  - first:
+      1: 100004
+    second: Cavern Water
+  - first:
+      1: 100006
+    second: Chain
+  - first:
+      1: 100008
+    second: Chandalier
+  - first:
+      1: 100010
+    second: Dome
+  - first:
+      1: 100012
+    second: Door03
+  - first:
+      1: 100014
+    second: Door04
+  - first:
+      1: 100016
+    second: Drawer
+  - first:
+      1: 100018
+    second: DrawerMusic
+  - first:
+      1: 100020
+    second: Gertrude
+  - first:
+      1: 100022
+    second: GrainSack
+  - first:
+      1: 100024
+    second: GrainSack Open
+  - first:
+      1: 100026
+    second: GrainSackDown
+  - first:
+      1: 100028
+    second: Group Water
+  - first:
+      1: 100030
+    second: Group0 Flora
+  - first:
+      1: 100032
+    second: Group0 Light
+  - first:
+      1: 100034
+    second: Group0 SafeKeep
+  - first:
+      1: 100036
+    second: Group03 Earth
+  - first:
+      1: 100038
+    second: Group04 Music
+  - first:
+      1: 100040
+    second: Harvey
+  - first:
+      1: 100042
+    second: Key Earth
+  - first:
+      1: 100044
+    second: Key Flora
+  - first:
+      1: 100046
+    second: Key Light
+  - first:
+      1: 100048
+    second: Key Lockup
+  - first:
+      1: 100050
+    second: Key Lockup Loose
+  - first:
+      1: 100052
+    second: Key Lockup01
+  - first:
+      1: 100054
+    second: Key Music
+  - first:
+      1: 100056
+    second: LargeWaterfall01
+  - first:
+      1: 100058
+    second: LargeWaterfall02
+  - first:
+      1: 100060
+    second: Ledge Fringe
+  - first:
+      1: 100062
+    second: Light Bracket01
+  - first:
+      1: 100064
+    second: Light Bracket02
+  - first:
+      1: 100066
+    second: Light Bracket03
+  - first:
+      1: 100068
+    second: Light Bracket04
+  - first:
+      1: 100070
+    second: Light Bracket05
+  - first:
+      1: 100072
+    second: Light Bracket06
+  - first:
+      1: 100074
+    second: Light Bracket07
+  - first:
+      1: 100076
+    second: Light Bracket08
+  - first:
+      1: 100078
+    second: Light Bracket09
+  - first:
+      1: 100080
+    second: Light Bracket10
+  - first:
+      1: 100082
+    second: Light Bracket11
+  - first:
+      1: 100084
+    second: Light Bracket12
+  - first:
+      1: 100086
+    second: Light Bracket13
+  - first:
+      1: 100088
+    second: Light Bracket14
+  - first:
+      1: 100090
+    second: Light Bracket15
+  - first:
+      1: 100092
+    second: Light Bracket16
+  - first:
+      1: 100094
+    second: Light Bracket17
+  - first:
+      1: 100096
+    second: Light Bracket18
+  - first:
+      1: 100098
+    second: Light Brackets
+  - first:
+      1: 100100
+    second: Mini Waterfall
+  - first:
+      1: 100102
+    second: OldStairs
+  - first:
+      1: 100104
+    second: PantherHead
+  - first:
+      1: 100106
+    second: Ruins
+  - first:
+      1: 100108
+    second: RuinStones
+  - first:
+      1: 100110
+    second: Shrine Earth
+  - first:
+      1: 100112
+    second: Shrine Flora
+  - first:
+      1: 100114
+    second: Shrine Light
+  - first:
+      1: 100116
+    second: Shrine Music
+  - first:
+      1: 100118
+    second: Shrine SafeKeep
+  - first:
+      1: 100120
+    second: Shrine Water
+  - first:
+      1: 100122
+    second: Small Bowl
+  - first:
+      1: 100124
+    second: Small Bowl 1
+  - first:
+      1: 100126
+    second: Stair Hinge
+  - first:
+      1: 100128
+    second: Stair Pivot
+  - first:
+      1: 100130
+    second: Stair Ramp
+  - first:
+      1: 100132
+    second: Stair Stop
+  - first:
+      1: 100134
+    second: Stairs
+  - first:
+      1: 100136
+    second: Steli Light
+  - first:
+      1: 100138
+    second: Steli Music
+  - first:
+      1: 100140
+    second: Steli Open
+  - first:
+      1: 100142
+    second: Steli Plant
+  - first:
+      1: 100144
+    second: Steli Topi
+  - first:
+      1: 100146
+    second: Steli Water
+  - first:
+      1: 100148
+    second: Stone Chest Base
+  - first:
+      1: 100150
+    second: Stone Chest Lid
+  - first:
+      1: 100152
+    second: Stone Chest Lock
+  - first:
+      1: 100154
+    second: //RootNode
+  - first:
+      1: 100156
+    second: Sun Position
+  - first:
+      1: 100158
+    second: Tapwstry
+  - first:
+      1: 100160
+    second: Tapwstry01
+  - first:
+      1: 100162
+    second: Taspestry Hanger
+  - first:
+      1: 100164
+    second: Taspestry Hanger01
+  - first:
+      1: 100166
+    second: Temple Group
+  - first:
+      1: 100168
+    second: Temple of Tizzleblat
+  - first:
+      1: 100170
+    second: Temple Outside
+  - first:
+      1: 100172
+    second: Topi Fruit Lamp
+  - first:
+      1: 100174
+    second: Topi Fruit Sack
+  - first:
+      1: 100176
+    second: Water Basin
+  - first:
+      1: 100178
+    second: Water Hole
+  - first:
+      1: 100180
+    second: Water Hole Radial
+  - first:
+      1: 100182
+    second: Water Key
+  - first:
+      4: 400000
+    second: Bowl
+  - first:
+      4: 400002
+    second: Cavern
+  - first:
+      4: 400004
+    second: Cavern Water
+  - first:
+      4: 400006
+    second: Chain
+  - first:
+      4: 400008
+    second: Chandalier
+  - first:
+      4: 400010
+    second: Dome
+  - first:
+      4: 400012
+    second: Door03
+  - first:
+      4: 400014
+    second: Door04
+  - first:
+      4: 400016
+    second: Drawer
+  - first:
+      4: 400018
+    second: DrawerMusic
+  - first:
+      4: 400020
+    second: Gertrude
+  - first:
+      4: 400022
+    second: GrainSack
+  - first:
+      4: 400024
+    second: GrainSack Open
+  - first:
+      4: 400026
+    second: GrainSackDown
+  - first:
+      4: 400028
+    second: Group Water
+  - first:
+      4: 400030
+    second: Group0 Flora
+  - first:
+      4: 400032
+    second: Group0 Light
+  - first:
+      4: 400034
+    second: Group0 SafeKeep
+  - first:
+      4: 400036
+    second: Group03 Earth
+  - first:
+      4: 400038
+    second: Group04 Music
+  - first:
+      4: 400040
+    second: Harvey
+  - first:
+      4: 400042
+    second: Key Earth
+  - first:
+      4: 400044
+    second: Key Flora
+  - first:
+      4: 400046
+    second: Key Light
+  - first:
+      4: 400048
+    second: Key Lockup
+  - first:
+      4: 400050
+    second: Key Lockup Loose
+  - first:
+      4: 400052
+    second: Key Lockup01
+  - first:
+      4: 400054
+    second: Key Music
+  - first:
+      4: 400056
+    second: LargeWaterfall01
+  - first:
+      4: 400058
+    second: LargeWaterfall02
+  - first:
+      4: 400060
+    second: Ledge Fringe
+  - first:
+      4: 400062
+    second: Light Bracket01
+  - first:
+      4: 400064
+    second: Light Bracket02
+  - first:
+      4: 400066
+    second: Light Bracket03
+  - first:
+      4: 400068
+    second: Light Bracket04
+  - first:
+      4: 400070
+    second: Light Bracket05
+  - first:
+      4: 400072
+    second: Light Bracket06
+  - first:
+      4: 400074
+    second: Light Bracket07
+  - first:
+      4: 400076
+    second: Light Bracket08
+  - first:
+      4: 400078
+    second: Light Bracket09
+  - first:
+      4: 400080
+    second: Light Bracket10
+  - first:
+      4: 400082
+    second: Light Bracket11
+  - first:
+      4: 400084
+    second: Light Bracket12
+  - first:
+      4: 400086
+    second: Light Bracket13
+  - first:
+      4: 400088
+    second: Light Bracket14
+  - first:
+      4: 400090
+    second: Light Bracket15
+  - first:
+      4: 400092
+    second: Light Bracket16
+  - first:
+      4: 400094
+    second: Light Bracket17
+  - first:
+      4: 400096
+    second: Light Bracket18
+  - first:
+      4: 400098
+    second: Light Brackets
+  - first:
+      4: 400100
+    second: Mini Waterfall
+  - first:
+      4: 400102
+    second: OldStairs
+  - first:
+      4: 400104
+    second: PantherHead
+  - first:
+      4: 400106
+    second: Ruins
+  - first:
+      4: 400108
+    second: RuinStones
+  - first:
+      4: 400110
+    second: Shrine Earth
+  - first:
+      4: 400112
+    second: Shrine Flora
+  - first:
+      4: 400114
+    second: Shrine Light
+  - first:
+      4: 400116
+    second: Shrine Music
+  - first:
+      4: 400118
+    second: Shrine SafeKeep
+  - first:
+      4: 400120
+    second: Shrine Water
+  - first:
+      4: 400122
+    second: Small Bowl
+  - first:
+      4: 400124
+    second: Small Bowl 1
+  - first:
+      4: 400126
+    second: Stair Hinge
+  - first:
+      4: 400128
+    second: Stair Pivot
+  - first:
+      4: 400130
+    second: Stair Ramp
+  - first:
+      4: 400132
+    second: Stair Stop
+  - first:
+      4: 400134
+    second: Stairs
+  - first:
+      4: 400136
+    second: Steli Light
+  - first:
+      4: 400138
+    second: Steli Music
+  - first:
+      4: 400140
+    second: Steli Open
+  - first:
+      4: 400142
+    second: Steli Plant
+  - first:
+      4: 400144
+    second: Steli Topi
+  - first:
+      4: 400146
+    second: Steli Water
+  - first:
+      4: 400148
+    second: Stone Chest Base
+  - first:
+      4: 400150
+    second: Stone Chest Lid
+  - first:
+      4: 400152
+    second: Stone Chest Lock
+  - first:
+      4: 400154
+    second: //RootNode
+  - first:
+      4: 400156
+    second: Sun Position
+  - first:
+      4: 400158
+    second: Tapwstry
+  - first:
+      4: 400160
+    second: Tapwstry01
+  - first:
+      4: 400162
+    second: Taspestry Hanger
+  - first:
+      4: 400164
+    second: Taspestry Hanger01
+  - first:
+      4: 400166
+    second: Temple Group
+  - first:
+      4: 400168
+    second: Temple of Tizzleblat
+  - first:
+      4: 400170
+    second: Temple Outside
+  - first:
+      4: 400172
+    second: Topi Fruit Lamp
+  - first:
+      4: 400174
+    second: Topi Fruit Sack
+  - first:
+      4: 400176
+    second: Water Basin
+  - first:
+      4: 400178
+    second: Water Hole
+  - first:
+      4: 400180
+    second: Water Hole Radial
+  - first:
+      4: 400182
+    second: Water Key
+  - first:
+      23: 2300000
+    second: Bowl
+  - first:
+      23: 2300002
+    second: Cavern
+  - first:
+      23: 2300004
+    second: Cavern Water
+  - first:
+      23: 2300006
+    second: Chain
+  - first:
+      23: 2300008
+    second: Chandalier
+  - first:
+      23: 2300010
+    second: Dome
+  - first:
+      23: 2300012
+    second: Door03
+  - first:
+      23: 2300014
+    second: Door04
+  - first:
+      23: 2300016
+    second: Drawer
+  - first:
+      23: 2300018
+    second: DrawerMusic
+  - first:
+      23: 2300020
+    second: Gertrude
+  - first:
+      23: 2300022
+    second: GrainSack
+  - first:
+      23: 2300024
+    second: GrainSack Open
+  - first:
+      23: 2300026
+    second: GrainSackDown
+  - first:
+      23: 2300028
+    second: Harvey
+  - first:
+      23: 2300030
+    second: Key Earth
+  - first:
+      23: 2300032
+    second: Key Flora
+  - first:
+      23: 2300034
+    second: Key Light
+  - first:
+      23: 2300036
+    second: Key Lockup
+  - first:
+      23: 2300038
+    second: Key Lockup Loose
+  - first:
+      23: 2300040
+    second: Key Lockup01
+  - first:
+      23: 2300042
+    second: Key Music
+  - first:
+      23: 2300044
+    second: LargeWaterfall01
+  - first:
+      23: 2300046
+    second: LargeWaterfall02
+  - first:
+      23: 2300048
+    second: Ledge Fringe
+  - first:
+      23: 2300050
+    second: Light Bracket01
+  - first:
+      23: 2300052
+    second: Light Bracket02
+  - first:
+      23: 2300054
+    second: Light Bracket03
+  - first:
+      23: 2300056
+    second: Light Bracket04
+  - first:
+      23: 2300058
+    second: Light Bracket05
+  - first:
+      23: 2300060
+    second: Light Bracket06
+  - first:
+      23: 2300062
+    second: Light Bracket07
+  - first:
+      23: 2300064
+    second: Light Bracket08
+  - first:
+      23: 2300066
+    second: Light Bracket09
+  - first:
+      23: 2300068
+    second: Light Bracket10
+  - first:
+      23: 2300070
+    second: Light Bracket11
+  - first:
+      23: 2300072
+    second: Light Bracket12
+  - first:
+      23: 2300074
+    second: Light Bracket13
+  - first:
+      23: 2300076
+    second: Light Bracket14
+  - first:
+      23: 2300078
+    second: Light Bracket15
+  - first:
+      23: 2300080
+    second: Light Bracket16
+  - first:
+      23: 2300082
+    second: Light Bracket17
+  - first:
+      23: 2300084
+    second: Light Bracket18
+  - first:
+      23: 2300086
+    second: Mini Waterfall
+  - first:
+      23: 2300088
+    second: PantherHead
+  - first:
+      23: 2300090
+    second: RuinStones
+  - first:
+      23: 2300092
+    second: Shrine Earth
+  - first:
+      23: 2300094
+    second: Shrine Flora
+  - first:
+      23: 2300096
+    second: Shrine Light
+  - first:
+      23: 2300098
+    second: Shrine Music
+  - first:
+      23: 2300100
+    second: Shrine SafeKeep
+  - first:
+      23: 2300102
+    second: Shrine Water
+  - first:
+      23: 2300104
+    second: Small Bowl
+  - first:
+      23: 2300106
+    second: Small Bowl 1
+  - first:
+      23: 2300108
+    second: Stair Hinge
+  - first:
+      23: 2300110
+    second: Stair Pivot
+  - first:
+      23: 2300112
+    second: Stair Ramp
+  - first:
+      23: 2300114
+    second: Stair Stop
+  - first:
+      23: 2300116
+    second: Stairs
+  - first:
+      23: 2300118
+    second: Steli Light
+  - first:
+      23: 2300120
+    second: Steli Music
+  - first:
+      23: 2300122
+    second: Steli Open
+  - first:
+      23: 2300124
+    second: Steli Plant
+  - first:
+      23: 2300126
+    second: Steli Topi
+  - first:
+      23: 2300128
+    second: Steli Water
+  - first:
+      23: 2300130
+    second: Stone Chest Base
+  - first:
+      23: 2300132
+    second: Stone Chest Lid
+  - first:
+      23: 2300134
+    second: Stone Chest Lock
+  - first:
+      23: 2300136
+    second: Sun Position
+  - first:
+      23: 2300138
+    second: Tapwstry
+  - first:
+      23: 2300140
+    second: Tapwstry01
+  - first:
+      23: 2300142
+    second: Taspestry Hanger
+  - first:
+      23: 2300144
+    second: Taspestry Hanger01
+  - first:
+      23: 2300146
+    second: Temple of Tizzleblat
+  - first:
+      23: 2300148
+    second: Temple Outside
+  - first:
+      23: 2300150
+    second: Topi Fruit Lamp
+  - first:
+      23: 2300152
+    second: Topi Fruit Sack
+  - first:
+      23: 2300154
+    second: Water Basin
+  - first:
+      23: 2300156
+    second: Water Hole
+  - first:
+      23: 2300158
+    second: Water Hole Radial
+  - first:
+      23: 2300160
+    second: Water Key
+  - first:
+      33: 3300000
+    second: Bowl
+  - first:
+      33: 3300002
+    second: Cavern
+  - first:
+      33: 3300004
+    second: Cavern Water
+  - first:
+      33: 3300006
+    second: Chain
+  - first:
+      33: 3300008
+    second: Chandalier
+  - first:
+      33: 3300010
+    second: Dome
+  - first:
+      33: 3300012
+    second: Door03
+  - first:
+      33: 3300014
+    second: Door04
+  - first:
+      33: 3300016
+    second: Drawer
+  - first:
+      33: 3300018
+    second: DrawerMusic
+  - first:
+      33: 3300020
+    second: Gertrude
+  - first:
+      33: 3300022
+    second: GrainSack
+  - first:
+      33: 3300024
+    second: GrainSack Open
+  - first:
+      33: 3300026
+    second: GrainSackDown
+  - first:
+      33: 3300028
+    second: Harvey
+  - first:
+      33: 3300030
+    second: Key Earth
+  - first:
+      33: 3300032
+    second: Key Flora
+  - first:
+      33: 3300034
+    second: Key Light
+  - first:
+      33: 3300036
+    second: Key Lockup
+  - first:
+      33: 3300038
+    second: Key Lockup Loose
+  - first:
+      33: 3300040
+    second: Key Lockup01
+  - first:
+      33: 3300042
+    second: Key Music
+  - first:
+      33: 3300044
+    second: LargeWaterfall01
+  - first:
+      33: 3300046
+    second: LargeWaterfall02
+  - first:
+      33: 3300048
+    second: Ledge Fringe
+  - first:
+      33: 3300050
+    second: Light Bracket01
+  - first:
+      33: 3300052
+    second: Light Bracket02
+  - first:
+      33: 3300054
+    second: Light Bracket03
+  - first:
+      33: 3300056
+    second: Light Bracket04
+  - first:
+      33: 3300058
+    second: Light Bracket05
+  - first:
+      33: 3300060
+    second: Light Bracket06
+  - first:
+      33: 3300062
+    second: Light Bracket07
+  - first:
+      33: 3300064
+    second: Light Bracket08
+  - first:
+      33: 3300066
+    second: Light Bracket09
+  - first:
+      33: 3300068
+    second: Light Bracket10
+  - first:
+      33: 3300070
+    second: Light Bracket11
+  - first:
+      33: 3300072
+    second: Light Bracket12
+  - first:
+      33: 3300074
+    second: Light Bracket13
+  - first:
+      33: 3300076
+    second: Light Bracket14
+  - first:
+      33: 3300078
+    second: Light Bracket15
+  - first:
+      33: 3300080
+    second: Light Bracket16
+  - first:
+      33: 3300082
+    second: Light Bracket17
+  - first:
+      33: 3300084
+    second: Light Bracket18
+  - first:
+      33: 3300086
+    second: Mini Waterfall
+  - first:
+      33: 3300088
+    second: PantherHead
+  - first:
+      33: 3300090
+    second: RuinStones
+  - first:
+      33: 3300092
+    second: Shrine Earth
+  - first:
+      33: 3300094
+    second: Shrine Flora
+  - first:
+      33: 3300096
+    second: Shrine Light
+  - first:
+      33: 3300098
+    second: Shrine Music
+  - first:
+      33: 3300100
+    second: Shrine SafeKeep
+  - first:
+      33: 3300102
+    second: Shrine Water
+  - first:
+      33: 3300104
+    second: Small Bowl
+  - first:
+      33: 3300106
+    second: Small Bowl 1
+  - first:
+      33: 3300108
+    second: Stair Hinge
+  - first:
+      33: 3300110
+    second: Stair Pivot
+  - first:
+      33: 3300112
+    second: Stair Ramp
+  - first:
+      33: 3300114
+    second: Stair Stop
+  - first:
+      33: 3300116
+    second: Stairs
+  - first:
+      33: 3300118
+    second: Steli Light
+  - first:
+      33: 3300120
+    second: Steli Music
+  - first:
+      33: 3300122
+    second: Steli Open
+  - first:
+      33: 3300124
+    second: Steli Plant
+  - first:
+      33: 3300126
+    second: Steli Topi
+  - first:
+      33: 3300128
+    second: Steli Water
+  - first:
+      33: 3300130
+    second: Stone Chest Base
+  - first:
+      33: 3300132
+    second: Stone Chest Lid
+  - first:
+      33: 3300134
+    second: Stone Chest Lock
+  - first:
+      33: 3300136
+    second: Sun Position
+  - first:
+      33: 3300138
+    second: Tapwstry
+  - first:
+      33: 3300140
+    second: Tapwstry01
+  - first:
+      33: 3300142
+    second: Taspestry Hanger
+  - first:
+      33: 3300144
+    second: Taspestry Hanger01
+  - first:
+      33: 3300146
+    second: Temple of Tizzleblat
+  - first:
+      33: 3300148
+    second: Temple Outside
+  - first:
+      33: 3300150
+    second: Topi Fruit Lamp
+  - first:
+      33: 3300152
+    second: Topi Fruit Sack
+  - first:
+      33: 3300154
+    second: Water Basin
+  - first:
+      33: 3300156
+    second: Water Hole
+  - first:
+      33: 3300158
+    second: Water Hole Radial
+  - first:
+      33: 3300160
+    second: Water Key
+  - first:
+      43: 4300000
+    second: Steli Water
+  - first:
+      43: 4300002
+    second: Steli Plant
+  - first:
+      43: 4300004
+    second: Steli Light
+  - first:
+      43: 4300006
+    second: Steli Music
+  - first:
+      43: 4300008
+    second: Steli Open
+  - first:
+      43: 4300010
+    second: Sun Position
+  - first:
+      43: 4300012
+    second: Topi Fruit Lamp
+  - first:
+      43: 4300014
+    second: Key Flora
+  - first:
+      43: 4300016
+    second: Shrine Flora
+  - first:
+      43: 4300018
+    second: Key Light
+  - first:
+      43: 4300020
+    second: Small Bowl
+  - first:
+      43: 4300022
+    second: Shrine Light
+  - first:
+      43: 4300024
+    second: Key Earth
+  - first:
+      43: 4300026
+    second: Shrine Earth
+  - first:
+      43: 4300028
+    second: DrawerMusic
+  - first:
+      43: 4300030
+    second: Key Music
+  - first:
+      43: 4300032
+    second: Shrine Music
+  - first:
+      43: 4300034
+    second: Stone Chest Lock
+  - first:
+      43: 4300036
+    second: Key Lockup
+  - first:
+      43: 4300038
+    second: Stone Chest Lid
+  - first:
+      43: 4300040
+    second: Stone Chest Base
+  - first:
+      43: 4300042
+    second: Shrine SafeKeep
+  - first:
+      43: 4300044
+    second: RuinStones
+  - first:
+      43: 4300046
+    second: Key Lockup Loose
+  - first:
+      43: 4300048
+    second: Bowl
+  - first:
+      43: 4300050
+    second: Small Bowl
+  - first:
+      43: 4300052
+    second: Door03
+  - first:
+      43: 4300054
+    second: Door04
+  - first:
+      43: 4300056
+    second: Drawer
+  - first:
+      43: 4300058
+    second: Water Key
+  - first:
+      43: 4300060
+    second: Gertrude
+  - first:
+      43: 4300062
+    second: Harvey
+  - first:
+      43: 4300064
+    second: Taspestry Hanger
+  - first:
+      43: 4300066
+    second: Tapwstry
+  - first:
+      43: 4300068
+    second: Taspestry Hanger01
+  - first:
+      43: 4300070
+    second: Tapwstry01
+  - first:
+      43: 4300072
+    second: Light Bracket01
+  - first:
+      43: 4300074
+    second: PantherHead
+  - first:
+      43: 4300076
+    second: Chandalier
+  - first:
+      43: 4300078
+    second: Chain
+  - first:
+      43: 4300080
+    second: Light Bracket02
+  - first:
+      43: 4300082
+    second: Light Bracket03
+  - first:
+      43: 4300084
+    second: Light Bracket04
+  - first:
+      43: 4300086
+    second: Light Bracket05
+  - first:
+      43: 4300088
+    second: Light Bracket06
+  - first:
+      43: 4300090
+    second: Light Bracket07
+  - first:
+      43: 4300092
+    second: Light Bracket08
+  - first:
+      43: 4300094
+    second: Light Bracket09
+  - first:
+      43: 4300096
+    second: Light Bracket10
+  - first:
+      43: 4300098
+    second: Light Bracket11
+  - first:
+      43: 4300100
+    second: Light Bracket12
+  - first:
+      43: 4300102
+    second: Light Bracket13
+  - first:
+      43: 4300104
+    second: Light Bracket14
+  - first:
+      43: 4300106
+    second: Light Bracket15
+  - first:
+      43: 4300108
+    second: Light Bracket16
+  - first:
+      43: 4300110
+    second: Light Bracket17
+  - first:
+      43: 4300112
+    second: Light Bracket18
+  - first:
+      43: 4300114
+    second: Cavern
+  - first:
+      43: 4300116
+    second: Topi Fruit Sack
+  - first:
+      43: 4300118
+    second: GrainSack Open
+  - first:
+      43: 4300120
+    second: Steli Topi
+  - first:
+      43: 4300122
+    second: GrainSack
+  - first:
+      43: 4300124
+    second: Cavern Water
+  - first:
+      43: 4300126
+    second: GrainSackDown
+  - first:
+      43: 4300128
+    second: Ledge Fringe
+  - first:
+      43: 4300130
+    second: Mini Waterfall
+  - first:
+      43: 4300132
+    second: LargeWaterfall01
+  - first:
+      43: 4300134
+    second: LargeWaterfall02
+  - first:
+      43: 4300136
+    second: Water Basin
+  - first:
+      43: 4300138
+    second: Water Hole
+  - first:
+      43: 4300140
+    second: Shrine Water
+  - first:
+      43: 4300142
+    second: Dome
+  - first:
+      43: 4300144
+    second: Temple Outside
+  - first:
+      43: 4300146
+    second: Temple of Tizzleblat
+  - first:
+      43: 4300148
+    second: Stair Hinge
+  - first:
+      43: 4300150
+    second: Stair Pivot
+  - first:
+      43: 4300152
+    second: Stairs
+  - first:
+      43: 4300154
+    second: Key Lockup01
+  - first:
+      43: 4300156
+    second: Stair Ramp
+  - first:
+      43: 4300158
+    second: Stair Stop
+  - first:
+      43: 4300160
+    second: Water Hole Radial
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: a84a3a1a514d3ef4585866edb3c7e186, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: 1886b64fd216fa1429f9fc66d1c1b3ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 04 - Default
+    second: {fileID: 2100000, guid: ec7ff1231c8fd6c4b98bd3eee08fa6a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default
+    second: {fileID: 2100000, guid: 35a8808d2c8277c468e793526a9e35b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 17 - Default
+    second: {fileID: 2100000, guid: c43635651b6291c4aba444fa1e4e746f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 20 - Default
+    second: {fileID: 2100000, guid: beb37cb51e7dcd34b837368ce8e437e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 22 - Default
+    second: {fileID: 2100000, guid: b5755df3b18456d47a8db674c1b6ea79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chain
+    second: {fileID: 2100000, guid: 1edd852c848966649bc066a0694d6a41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clear
+    second: {fileID: 2100000, guid: de9759aed02f7b2449f5824d521425f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold
+    second: {fileID: 2100000, guid: d7880f598e26ccf43b647435138f36c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold Lace
+    second: {fileID: 2100000, guid: cba5fcb7822f3e14f9ccf799f19db7ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #129'
+    second: {fileID: 2100000, guid: 6f422cff046f4db47b0b3daa4c8d04bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #227'
+    second: {fileID: 2100000, guid: 494c8fa214b108043b674783ef0a2c29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #350'
+    second: {fileID: 2100000, guid: 9044adce3c458634d8eeae1581786396, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #423'
+    second: {fileID: 2100000, guid: dbaca77921c7ce84fab8c7518af3e101, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #424'
+    second: {fileID: 2100000, guid: 9a0a2a48e7bfb024ebcf2cc27aa279bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #507'
+    second: {fileID: 2100000, guid: baf53407b7b884147ba8545adab18e3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #508'
+    second: {fileID: 2100000, guid: e58b23d8471f5884f9b56506c72a8e3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #509'
+    second: {fileID: 2100000, guid: ba674066f12b6f9429b07be51c5b2c23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #510'
+    second: {fileID: 2100000, guid: bdcf9663b75c170449fa29362be066c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #511'
+    second: {fileID: 2100000, guid: e7a211facd4b19c47aa508f895205d29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: e75b594e02fc6a2448add4f0cc7a2cb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rock Lumpy
+    second: {fileID: 2100000, guid: ec7ff1231c8fd6c4b98bd3eee08fa6a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rocl Plain
+    second: {fileID: 2100000, guid: ec7ff1231c8fd6c4b98bd3eee08fa6a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone Inner
+    second: {fileID: 2100000, guid: a89c9380d07afd9478407da1adf45d79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone Outer
+    second: {fileID: 2100000, guid: a89c9380d07afd9478407da1adf45d79, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 10
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

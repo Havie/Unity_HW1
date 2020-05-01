@@ -35,6 +35,9 @@ public class BatteryCollect : MonoBehaviour
             BatteryImg.sprite = s4;
         else if (juice == 5)
             BatteryImg.sprite = s5;
+
+        if (Input.GetKeyDown(KeyCode.I))
+            increaseJuice(1);
     }
 
     public void increaseJuice(int num)
@@ -43,6 +46,8 @@ public class BatteryCollect : MonoBehaviour
             juice = 5;
         else if (juice + num < 1)
             juice = 1;
+        else
+            ++juice;
     }
 
     public int getJuice()

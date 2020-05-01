@@ -134,6 +134,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 m_Jump = true;
             }
+
+            if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0 || Input.GetAxis("ML Enable") != 0 || Input.GetAxis("Turn") != 0 || Input.GetMouseButton(1))
+            {
+                mouseLook.SetCursorLock(true);
+            }
+            else
+                mouseLook.SetCursorLock(false);
         }
 
 

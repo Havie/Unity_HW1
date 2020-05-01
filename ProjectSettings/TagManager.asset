@@ -9,6 +9,7 @@ TagManager:
   - Platform
   - Battery
   - BatteryUI
+  - TextHints
   layers:
   - Default
   - TransparentFX
